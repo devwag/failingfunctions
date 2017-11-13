@@ -1,0 +1,18 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "WEBSITE_SLOT_NAME": "Production",
+    "FUNCTIONS_EXTENSION_VERSION": "~1",
+    "WEBSITE_ENCRYPTION_KEY": "LS9g9sy1iHQJ/IKWCAzwghGOdTcGtx4mSExU6Tqf5jQ=",
+    "ScmType": "None",
+    "WEBSITE_AUTH_ENABLED": "False",
+    "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName=funchackfuncstorage;AccountKey=C1oAd0F1iRmC62QrpgWmYUcr21EQA3q4meRDmh6AMTfV4H0AgBubI3AV2Q/D+CBLXLLdkAKqGdF67KjcmHwvgg==",
+    "WEBSITE_NODE_DEFAULT_VERSION": "6.5.0",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=funchackfuncstorage;AccountKey=C1oAd0F1iRmC62QrpgWmYUcr21EQA3q4meRDmh6AMTfV4H0AgBubI3AV2Q/D+CBLXLLdkAKqGdF67KjcmHwvgg==",
+    "WEBSITE_CONTENTSHARE": "funchackfunc87cf",
+    "funchackfuncstorage_STORAGE": "DefaultEndpointsProtocol=https;AccountName=funchackfuncstorage;AccountKey=C1oAd0F1iRmC62QrpgWmYUcr21EQA3q4meRDmh6AMTfV4H0AgBubI3AV2Q/D+CBLXLLdkAKqGdF67KjcmHwvgg==",
+    "WEBSITE_SITE_NAME": "funchackfunc",
+    "funchackeventhub_RootManageSharedAccessKey_EVENTHUB": "Endpoint=sb://funchackeventhub.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=G83079e4Uws6fs0mFbJgTb9vml0oNrnegpnd5fT65VQ=;EntityPath=myhub",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=funchackfuncstorage;AccountKey=C1oAd0F1iRmC62QrpgWmYUcr21EQA3q4meRDmh6AMTfV4H0AgBubI3AV2Q/D+CBLXLLdkAKqGdF67KjcmHwvgg=="
+  }
+}

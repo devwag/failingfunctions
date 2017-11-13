@@ -1,0 +1,35 @@
+{
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "name": "myEventHubMessage",
+      "direction": "in",
+      "path": "tempshub",
+      "connection": "funchackeventhub_RootManageSharedAccessKey_EVENTHUB",
+      "consumerGroup": "$Default"
+    },
+    {
+      "type": "queue",
+      "name": "outputQueueItem",
+      "queueName": "funchackfuncq",
+      "connection": "funchackfuncstorage_STORAGE",
+      "direction": "out"
+    },
+    {
+      "type": "table",
+      "name": "outputTable",
+      "tableName": "funchackfunctable",
+      "connection": "funchackfuncstorage_STORAGE",
+      "direction": "out"
+    },
+    {
+      "type": "table",
+      "name": "inputTable",
+      "tableName": "funchackfunctable",
+      "take": 50,
+      "connection": "funchackfuncstorage_STORAGE",
+      "direction": "in"
+    }
+  ],
+  "disabled": false
+}
